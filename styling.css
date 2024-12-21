@@ -1,0 +1,111 @@
+body {
+  background-color: darkgray;
+  box-shadow: 10px 10px 7px lightskyblue ;
+  min-width: 100px;
+  min-height: 500px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 5px solid lavenderblush;
+  padding: 10px;
+  background-color: azure;
+  /* box-shadow: 10px 10px 7px lightskyblue ; */
+}
+.section{
+  display: flex;
+  display: inline-flex;
+}
+/* .boxes{
+     border: 5px solid lightgray;
+     padding: 10px;
+     background-color: azure;
+     box-shadow: 10px 10px 7px lightgray ;
+} */
+ #box1{
+  display: flex;
+  text-indent: 10px;
+  border: 5px solid lightgray;
+  padding: 10px;
+  background-color: azure;
+  box-shadow: 10px 10px 7px lightgray ;
+  flex-wrap: wrap;
+ }
+
+ #box2{
+  border: 5px solid lightgray;
+  padding: 10px;
+  background-color: azure;
+  box-shadow: 10px 10px 7px lightgray ;
+  display: inline-table;
+ }
+
+ #box3{
+  border: 5px solid lightgray;
+  padding: 10px;
+  background-color: azure;
+  box-shadow: 10px 10px 7px lightgray ;
+}
+
+img {
+  width: 200px;
+  height: 270px;
+  justify-content: left;
+  display: flex;
+}
+
+h1 {
+  font-family: "Orbitron";
+  font-size: 1.1em;
+  display: flex;
+}
+h2 {
+  font-family: "Orbitron";
+  font-size: .95em;
+  align-items: flex;
+}
+h3{
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#box4{
+  border: 5px solid lightgray;
+  padding: 10px;
+  background-color: azure;
+  box-shadow: 10px 10px 7px lightgray ;
+  display: grid;
+}
+/* section {
+  border: 5px solid lightcoral;
+  padding: 10px;
+  background-color: azure;
+  box-shadow: 10px 10px 7px lightskyblue ;
+} */
+/* table{
+     box-shadow: 10px 10px 7px lightskyblue;
+     width: 200px;
+     height: 300px;
+     text-align: center;
+     border:5px solid lightcoral;
+ } */
+/* .container {  
+   display: flex;
+} */
+/* .boxes {
+   border: .1px solid;
+   width: 99px;
+   height: 99px;
+   text-align: center;
+   font-size: 30px;
+} */
+/* #box1 { background-color: green; }
+#box2 { background-color: yellow; }
+#box3 { background-color: pink; }
+#box4 { background-color: blue; }
+#box5 { background-color: red; }
+#box6 { background-color: orange; }
+#box7 { background-color:beige; }
+#box8 { background-color: lightgrey; } */
